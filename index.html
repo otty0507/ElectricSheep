@@ -7,9 +7,8 @@
     <script src="https://unpkg.com/obniz@3.x/obniz.js" crossorigin="anonymous" ></script>
   </head>
   <body>
-    <div id="obniz-debug"></div>
-    <p>嗚呼あ</p>
-
+    <div id = "api"></div>
+  </body>
     <script>
       var obniz = new Obniz("17749577");
 
@@ -32,6 +31,7 @@
           }
           console.log(avg);
           body = document.getElementId("api")
+          body = avg
           
           await obniz.wait(100);
 
